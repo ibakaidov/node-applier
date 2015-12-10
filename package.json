@@ -1,0 +1,27 @@
+{
+  "name": "applier",
+  "version": "0.0.0",
+  "description": "Module for create applier functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ibakaidov/node-applier.git"
+  },
+  "keywords": [
+    "functions",
+    "apply",
+    "call",
+    "lang",
+    "util.util"
+  ],
+  "author": "ibakaidov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibakaidov/node-applier/issues"
+  },
+  "homepage": "https://github.com/ibakaidov/node-applier#readme",
+  "devDependencies": {}
+}
