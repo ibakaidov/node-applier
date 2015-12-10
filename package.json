@@ -1,6 +1,6 @@
 {
   "name": "applier",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Module for create applier functions",
   "main": "index.js",
   "scripts": {

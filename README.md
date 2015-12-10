@@ -14,24 +14,29 @@ npm install --save applier
 var applier = require('applier');
 var hi = applier(console.log, "Hello,", new applier.Argument(0));
 
-hi("Ivan");
+hi("World"); // Hello, world!
+
+var nextSecond = applier(console.log, 'It is next second');
+
+setInterval(nextSecond, 1000);
+
 ```
 
-##API
-## applier(fn, [...args])
+## API
+### applier(fn, [...args])
 
-### Params:
+#### Params:
 
 * *fn* function, whoose will call in applier with saves args
 * *[...args]* args for call function, if among arguments will be Argument (Abstruction argument), then applier will change it to argument whoose get applier..
 
-### Return:
+#### Return:
 
 * **Applier** 
  
-## applier.Argument(id)
+### applier.Argument(id)
 
-### Params:
+#### Params:
 
 * *id* - index of need param in call Applier
 
